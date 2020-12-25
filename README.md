@@ -1,6 +1,4 @@
-# hp_41_clr
-
-My basic clear routine for the HP-41 calculator.
+# My basic clear routine for the HP-41 calculator
 
 I assign this function ("CLR") to CLX and use this to clear the calculator.
 
