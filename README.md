@@ -1,7 +1,7 @@
 # My basic clear routine for the HP-41 calculator
  
 I assign this function ("CLR") to CLX and use this to clear the calculator.
-
+ 
 It sets the flags to the RCLFLAG that is taken from the HEPAX file "C". To
 initiate this file with the flags you have set, run "NEWC" first. If you later
 change your flag setup (different FIX setting, DMY, etc), simply run NEWC
