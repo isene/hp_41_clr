@@ -1,4 +1,9 @@
 # My basic clear routine for the HP-41 calculator
+
+[![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/hp_41_clr.svg)](https://github.com/isene/hp_41_clr/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
  
 I assign this function ("CLR") to CLX and use this to clear the calculator.
  
