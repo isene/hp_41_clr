@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="150" height="150" fill="#1a1f2e"/>
+  
+  <!-- HP-41 Calculator -->
+  <g transform="translate(75, 75)">
+    <!-- Calculator body -->
+    <rect x="-35" y="-40" width="70" height="80" rx="5" fill="#2c2c2c" stroke="#444" stroke-width="2"/>
+    
+    <!-- LCD Display -->
+    <rect x="-30" y="-35" width="60" height="15" rx="2" fill="#0a4d0a" stroke="#333" stroke-width="1"/>
+    <text x="0" y="-25" font-family="monospace" font-size="7" fill="#00ff00" text-anchor="middle">CLEAR UTILITY</text>
+    
+    <!-- Memory display -->
+    <rect x="-28" y="-17" width="56" height="22" fill="#1a1a1a" stroke="#333" stroke-width="1" rx="1"/>
+    
+    <!-- Memory clearing animation -->
+    <g font-family="monospace" font-size="4" fill="#00ff00">
+      <text x="-25" y="-11">Memory: 319 REG</text>
+      <text x="-25" y="-5">Status: </text>
+      <text x="0" y="-5" fill="#ef4444">CLEARING...</text>
+      
+      <!-- Progress bar -->
+      <rect x="-25" y="0" width="50" height="3" fill="#374151" rx="0.5"/>
+      <rect x="-25" y="0" width="50" height="3" fill="#ef4444" rx="0.5">
+        <animate attributeName="width" values="0;50;0" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      
+      <text x="-25" y="9">Free: </text>
+      <text x="-5" y="9" fill="#10b981">
+        <animate attributeName="fill" values="#ef4444;#fbbf24;#10b981" dur="3s" repeatCount="indefinite"/>
+        319 REG
+      </text>
+    </g>
+    
+    <!-- Keyboard -->
+    <g fill="#1a1a1a" stroke="#666" stroke-width="0.5">
+      <rect x="-25" y="15" width="10" height="6" rx="0.5"/>
+      <rect x="-12" y="15" width="10" height="6" rx="0.5"/>
+      <rect x="1" y="15" width="10" height="6" rx="0.5"/>
+      <rect x="14" y="15" width="10" height="6" rx="0.5"/>
+      
+      <rect x="-25" y="23" width="10" height="6" rx="0.5"/>
+      <rect x="-12" y="23" width="10" height="6" rx="0.5"/>
+      <rect x="1" y="23" width="10" height="6" rx="0.5"/>
+      <rect x="14" y="23" width="10" height="6" rx="0.5"/>
+    </g>
+    
+    <!-- Key labels -->
+    <g font-family="monospace" font-size="3" fill="#fff" text-anchor="middle">
+      <text x="-20" y="19">CLΣ</text>
+      <text x="-7" y="19">CLST</text>
+      <text x="6" y="19">CLP</text>
+      <text x="19" y="19">CLX</text>
+    </g>
+  </g>
+  
+  <!-- Memory blocks visualization -->
+  <g transform="translate(75, 25)" opacity="0.8">
+    <!-- Memory blocks being cleared -->
+    <g>
+      <rect x="-40" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-30" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="0.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-20" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-10" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="10" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="20" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="30" y="0" width="8" height="8" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5">
+        <animate attributeName="fill" values="#3b82f6;#ef4444;#374151" dur="3s" begin="1.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  
+  <!-- Clear options -->
+  <g transform="translate(25, 125)" opacity="0.7">
+    <text x="0" y="0" font-family="monospace" font-size="4" fill="#60a5fa">Clear Options:</text>
+    <text x="0" y="6" font-family="monospace" font-size="3.5" fill="#94a3b8">• Registers</text>
+    <text x="0" y="11" font-family="monospace" font-size="3.5" fill="#94a3b8">• Stack</text>
+    <text x="0" y="16" font-family="monospace" font-size="3.5" fill="#94a3b8">• Programs</text>
+  </g>
+  
+  <g transform="translate(100, 125)" opacity="0.7">
+    <text x="0" y="0" font-family="monospace" font-size="4" fill="#60a5fa">Safe Clear:</text>
+    <text x="0" y="6" font-family="monospace" font-size="3.5" fill="#94a3b8">• Statistics</text>
+    <text x="0" y="11" font-family="monospace" font-size="3.5" fill="#94a3b8">• Alpha</text>
+    <text x="0" y="16" font-family="monospace" font-size="3.5" fill="#94a3b8">• Flags</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="75" y="140" font-family="monospace" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">CLR</text>
+  <text x="75" y="148" font-family="monospace" font-size="7" fill="#94a3b8" text-anchor="middle">Memory Clear Utility</text>
+</svg>

@@ -1,3 +1,5 @@
+<img src="img/clr_logo.svg" align="left" width="150" height="150" alt="CLR Logo">
+
 # My basic clear routine for the HP-41 calculator
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
