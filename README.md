@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/clr_logo.svg" align="left" width="150" height="150" alt="CLR Logo">
+<br clear="left"/>
  
 I assign this function ("CLR") to CLX and use this to clear the calculator.
  
